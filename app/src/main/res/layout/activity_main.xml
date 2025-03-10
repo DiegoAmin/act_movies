@@ -39,12 +39,17 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:title="Catalogo de Peliculas" />
-
+        <!--
         <ListView
             android:id="@+id/List"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@layout/item" />
+        -->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
